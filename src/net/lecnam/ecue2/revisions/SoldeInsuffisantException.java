@@ -7,7 +7,7 @@ public class SoldeInsuffisantException extends Exception{
         super(message);
     }
 
-    public SoldeInsuffisantException(double montantManquant, String message) {
+    public SoldeInsuffisantException(String message, double montantManquant) {
         super(message);
         this.montantManquant = montantManquant;
     }
